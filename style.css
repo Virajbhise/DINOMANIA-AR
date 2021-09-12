@@ -1,0 +1,25 @@
+body{
+  color: black
+}
+
+			.intro {
+				animation-duration: 2s;
+				animation-name: intro;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+			}
+
+			@keyframes intro {
+				0% {
+					transform: translate(0, -10px);
+				}
+
+				50% {
+					transform: translate(0, 10px);
+				}
+
+				100% {
+					transform: translate(0, -10px);
+				}
+			}
+
